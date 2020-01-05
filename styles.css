@@ -15,6 +15,10 @@ p:last-of-type {
     margin-bottom: 0;
 }
 
+.blurb.box {
+    margin-top: 20px;
+}
+
 /* BOX */
 .box {
     padding: 20px;
@@ -22,15 +26,9 @@ p:last-of-type {
     border-radius: 4px;
 }
 
-.box:not(:first-of-type) {
-    margin-top: 10px;
-}
-
 /* HEADER */
 header {
-    margin-bottom: 20px;
     text-align: center;
-    /* text-transform: uppercase; */
     line-height: initial;
 }
 
@@ -44,6 +42,10 @@ header .role {
 }
 
 /* SKILLS */
+
+.skills {
+    margin-top: 20px;
+}
 
 .skills span {
   display: inline-block;
@@ -59,7 +61,16 @@ header .role {
 .section-title {
     font-size: 24px;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 20px 0 0;
+}
+
+/* JOBS */
+.jobs {
+    margin-top: 20px;
+}
+
+.job:not(:first-child) {
+    margin-top: 10px;
 }
 
 /* JOB */
@@ -70,11 +81,9 @@ header .role {
 
 /* CONTACT */
 .contact {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .contact-type {
